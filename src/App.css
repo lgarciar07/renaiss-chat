@@ -1,0 +1,57 @@
+/* General Styling */
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+/* Top Row Styling */
+.TopRow {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Middle Row Styling */
+.MiddleRow {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+.Column1 {
+  flex: 1;
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  position: absolute;
+  width: 40%;
+  left: 20px;
+}
+
+.Column2 {
+  flex: 1;
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  position: absolute;
+  width: 50%;
+  right: 20px;
+}
+
+/* Sidebar and Settings Buttons Styling */
+.SidebarButton,
+.SettingsButton {
+  cursor: pointer;
+  img {
+    width: 24px;
+    height: 24px;
+  }
+}
